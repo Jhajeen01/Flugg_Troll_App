@@ -1,0 +1,44 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--tw-bg);
+  padding: 10px;
+}
+.post__avatar {
+  border: 15px;
+  padding: 15px;
+  /* this one line above had me frustrating. bcs i wasnted it to look at the same height when names didn't came up so i broght down avatar */
+}
+.post__body {
+  flex: 1;
+  padding: 5px;
+}
+
+.post__body > img {
+  border-radius: 20px;
+}
+
+.post__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+/* .verifiedIcon{
+  font-size: 20px;
+  transform: scale(0.2);
+} */
+
+.userName {
+  font-weight: 600;
+  font-size: 12px;
+}
+/* .header__ */
+.post__headerDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.post__headerText > h3 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
