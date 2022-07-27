@@ -7,9 +7,9 @@ function Tweetbox() {
       <form>
         <div className="tweetBox__input">
           <Avatar src="https://drive.google.com/uc?export=view&id=1LUxHzacFb2IlZSTmgxrrOK04Sz7uTKQggQ"></Avatar>
-          <input placeholder="What's happening" type="text"></input>
+          <input placeholder="What's around your world" type="text"></input>
         </div>
-        <Button className="tweetButton">Tweet</Button>
+        <Button className="tweetButton">Say Troll</Button>
       </form>
     </div>
   );
